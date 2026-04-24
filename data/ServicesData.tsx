@@ -115,7 +115,6 @@ const ServicesData: Service[] = [
     icon: (
       <svg
         className="w-10 h-10 text-blue-600"
-        fill="none"
         fill="currentColor"
         viewBox="0 0 48 48"
       >
@@ -183,7 +182,6 @@ const ServicesData: Service[] = [
     icon: (
       <svg
         className="w-10 h-10 text-blue-600"
-        fill="none"
         stroke="currentColor"
         viewBox="0 0 24 24"
       >
