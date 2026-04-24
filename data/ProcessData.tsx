@@ -16,7 +16,7 @@ const ProcessData: Process[] = [
         image: "/calculation.jpg",
         icon: (
           <svg
-            className="w-10 h-10 text-blue-600"
+            className="w-10 h-10 text-[#ba283d]"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -39,7 +39,7 @@ const ProcessData: Process[] = [
         image: "/procesPapers.png",
         icon: (
           <svg
-            className="w-10 h-10 text-blue-600"
+            className="w-10 h-10 text-[#ba283d]"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -62,7 +62,7 @@ const ProcessData: Process[] = [
         image: "/cargoShipPort.png",
         icon: (
           <svg
-            className="w-10 h-10 text-blue-600"
+            className="w-10 h-10 text-[#ba283d]"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"

@@ -17,7 +17,7 @@ const ServicesData: Service[] = [
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        className="w-10 h-10 text-blue-600"
+        className="w-10 h-10 text-[#ba283d]"
         fill="currentColor"
         id="Capa_1"
         viewBox="0 0 492.626 492.626"
@@ -43,7 +43,7 @@ const ServicesData: Service[] = [
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        className="w-10 h-10 text-blue-600"
+        className="w-10 h-10 text-[#ba283d]"
         fill="currentColor"
         viewBox="0 -1 26 26"
       >
@@ -72,7 +72,7 @@ const ServicesData: Service[] = [
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        className="w-10 h-10 text-blue-600"
+        className="w-10 h-10 text-[#ba283d]"
         fill="currentColor"
         viewBox="0 0 32 32"
       >
@@ -94,7 +94,7 @@ const ServicesData: Service[] = [
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        className="w-10 h-10 text-blue-600"
+        className="w-10 h-10 text-[#ba283d]"
         fill="currentColor"
         viewBox="0 0 358.643 358.643"
       >
@@ -114,7 +114,7 @@ const ServicesData: Service[] = [
     image: "/wheelchair-accessible-car-mod.webp",
     icon: (
       <svg
-        className="w-10 h-10 text-blue-600"
+        className="w-10 h-10 text-[#ba283d]"
         fill="currentColor"
         viewBox="0 0 48 48"
       >
@@ -136,7 +136,7 @@ const ServicesData: Service[] = [
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        className="w-10 h-10 text-blue-600"
+        className="w-10 h-10 text-[#ba283d]"
         fill="currentColor"
         viewBox="0 0 274.109 274.109"
       >
@@ -157,7 +157,7 @@ const ServicesData: Service[] = [
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        className="w-10 h-10 text-blue-600"
+        className="w-10 h-10 text-[#ba283d]"
         fill="currentColor"
         viewBox="0 0 512 512"
         aria-hidden="true"
@@ -181,7 +181,8 @@ const ServicesData: Service[] = [
     image: "/cargoShipPort.png",
     icon: (
       <svg
-        className="w-10 h-10 text-blue-600"
+        className="w-10 h-10 text-[#ba283d]"
+        fill="white"
         stroke="currentColor"
         viewBox="0 0 24 24"
       >

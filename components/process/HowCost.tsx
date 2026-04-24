@@ -57,7 +57,7 @@ const HowCost = () => {
           </p>
           <Link
             href="/contact"
-            className="inline-flex item-center text-blue-600 font-bold hover:gap-2 transition-all group"
+            className="inline-flex item-center text-[#ba283d] font-bold hover:gap-2 transition-all group"
           >
             Φόρμα επικοινωνίας
             <span className="ml-2 group-hover:translate-x-1 transition-transform">

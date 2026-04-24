@@ -10,11 +10,11 @@ const HeroContact = () => {
         <div className="flex flex-col lg:flex-row items-center gap-12 mt-12 lg:mt-0">
           {/* Text Content */}
           <div className="flex-1 text-center lg:text-left order-2 lg:order-1">
-            <span className="inline-block py-1 px-4 rounded-full bg-blue-50 text-blue-600 text-sm font-bold mb-6 uppercase tracking-wider">
+            <span className="inline-block py-1 px-4 rounded-full bg-red-50 text-[#ba283d] text-sm font-bold mb-6 uppercase tracking-wider">
               Τρόπος επικονωνίας
             </span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-gray-900 mb-6 leading-tight tracking-tight">
-              Η <span className="text-blue-600">Επικοινωνία</span> μαζί μας
+              Η <span className="text-[#ba283d]">Επικοινωνία</span> μαζί μας
             </h1>
             <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto lg:mx-0 leading-relaxed mb-10">
               Είμαστε στη διάθεσή σας για να λύσουμε κάθε απορία σχετικά με τον εκτελωνισμό του οχήματός σας. 
@@ -26,7 +26,7 @@ const HeroContact = () => {
           {/* Decorative/Image Side */}
           <div className="flex-1 relative w-full max-w-[500px] order-1 lg:order-2">
             <div className="relative aspect-video lg:aspect-square bg-white rounded-[2.5rem] shadow-2xl border-8 border-white overflow-hidden transform lg:-rotate-2">
-              <div className="absolute inset-0 bg-gradient-to-br from-blue-600/10 to-transparent z-10" />
+              <div className="absolute inset-0 bg-gradient-to-br from-[#ba283d]/10 to-transparent z-10" />
               <Image
                 src="/contact.jpg" // Μπορείς να χρησιμοποιήσεις μια άλλη εικόνα από το array σου
                 alt="Υπηρεσίες Εκτελωνισμού"
@@ -36,7 +36,7 @@ const HeroContact = () => {
               />
             </div>
             {/* Μικρό διακοσμητικό στοιχείο */}
-            <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-blue-600 rounded-3xl -z-10 animate-pulse" />
+            <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-[#ba283d] rounded-3xl -z-10 animate-pulse" />
           </div>
         </div>
         </div>

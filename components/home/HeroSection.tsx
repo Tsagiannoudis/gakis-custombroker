@@ -25,19 +25,19 @@ const HeroSection = () => {
   return (
     <section className="relative min-h-screen lg:min-h-[90vh] flex items-center bg-gray-50 pt-32 pb-12 lg:py-64 overflow-hidden">
       {/* Διακοσμητικό φόντο (blur effect) */}
-      <div className="absolute top-0 right-0 -translate-y-1/2 translate-x-1/4 w-[500px] md:w-[800px] h-[500px] md:h-[800px] bg-blue-100/60 rounded-full blur-[120px] -z-10" />
+      <div className="absolute top-0 right-0 -translate-y-1/2 translate-x-1/4 w-[500px] md:w-[800px] h-[500px] md:h-[800px] bg-red-100/60 rounded-full blur-[120px] -z-10" />
 
       <div className="container mx-auto px-6 lg:px-20 z-10">
         {/* mt-12 για mobile απόσταση, lg:mt-0 για να αφαιρεθεί στο desktop */}
         <div className="flex flex-col lg:flex-row items-center gap-12 mt-12 lg:mt-0">
           {/* Text Content */}
           <div className="flex-1 text-center lg:text-left order-2 lg:order-1">
-            <span className="inline-block py-1 px-4 rounded-full bg-blue-50 text-blue-600 text-sm font-bold mb-6 uppercase tracking-wider">
+            <span className="inline-block py-1 px-4 rounded-full bg-red-50 text-[#ba283d] text-sm font-bold mb-6 uppercase tracking-wider">
               Επαγγελματική Υποστήριξη
             </span>
             <h1 className="text-3xl md:text-5xl lg:text-6xl font-extrabold text-gray-900 mb-6 leading-tight tracking-tight">
               Εκτελωνισμοί Οχημάτων <br />
-              <span className="text-blue-600">Χωρίς Άγχος</span>
+              <span className="text-[#ba283d]">Χωρίς Άγχος</span>
             </h1>
             <p className="text-base md:text-lg text-gray-600 mb-10 leading-relaxed max-w-xl mx-auto lg:mx-0">
               Αναλαμβάνουμε όλη τη γραφειοκρατία για την εισαγωγή ή την εξαγωγή και ταξινόμηση
@@ -47,7 +47,7 @@ const HeroSection = () => {
             <div className="flex flex-wrap justify-center lg:justify-start gap-4">
               <Link
                 href="/contact"
-                className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-2xl font-bold transition-all shadow-lg hover:shadow-blue-200"
+                className="bg-[#ba283d] hover:bg-[#8b1f2f] text-white px-8 py-4 rounded-2xl font-bold transition-all shadow-lg hover:shadow-red-200"
               >
                 Επικοινωνήστε μαζί μας
               </Link>
@@ -82,7 +82,7 @@ const HeroSection = () => {
             </div>
             {/* Floating Trust Badge */}
             <div className="absolute -bottom-6 -left-6 bg-white p-4 md:p-6 rounded-2xl shadow-xl hidden md:block border border-gray-100">
-              <p className="text-blue-600 font-bold text-xl md:text-2xl">
+              <p className="text-[#ba283d] font-bold text-xl md:text-2xl">
                 100%
               </p>
               <p className="text-gray-500 text-xs md:text-sm font-medium">

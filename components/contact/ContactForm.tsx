@@ -6,7 +6,7 @@ const ContactForm = () => {
           <div className="flex flex-col lg:flex-row">
             
             {/* Contact Info Sidebar */}
-            <div className="lg:w-1/3 bg-blue-600 p-8 md:p-12 text-white">
+            <div className="lg:w-1/3 bg-[#ba283d] p-8 md:p-12 text-white">
               <h2 className="text-3xl font-bold mb-8">Στοιχεία Επικοινωνίας</h2>
               <div className="space-y-8">
                 <div className="flex items-start gap-4">
@@ -18,7 +18,7 @@ const ContactForm = () => {
                   </div>
                   <div>
                     <p className="font-bold">Διεύθυνση</p>
-                    <p className="text-blue-100 text-sm">26ης Οκτωβρίου 28, Θεσσαλονίκη</p>
+                    <p className="text-red-100 text-sm">26ης Οκτωβρίου 28, Θεσσαλονίκη</p>
                   </div>
                 </div>
 
@@ -30,7 +30,7 @@ const ContactForm = () => {
                   </div>
                   <div>
                     <p className="font-bold">Τηλέφωνο</p>
-                    <p className="text-blue-100 text-sm">+30 2316 016810</p>
+                    <p className="text-red-100 text-sm">+30 2316 016810</p>
                   </div>
                 </div>
 
@@ -42,7 +42,7 @@ const ContactForm = () => {
                   </div>
                   <div>
                     <p className="font-bold">Email</p>
-                    <p className="text-blue-100 text-sm">gakisnikos85@gmail.com</p>
+                    <p className="text-red-100 text-sm">gakisnikos85@gmail.com</p>
                   </div>
                 </div>
               </div>
@@ -55,7 +55,7 @@ const ContactForm = () => {
                   <label htmlFor="name" className="text-sm font-bold text-gray-700">Ονοματεπώνυμο</label>
                   <input 
                     type="text" id="name" name="name" required 
-                    className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-600 focus:border-transparent transition-all outline-none"
+                    className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-xl focus:ring-2 focus:ring-[#ba283d] focus:border-transparent transition-all outline-none"
                     placeholder="π.χ. Ιωάννης Παπαδόπουλος"
                   />
                 </div>
@@ -64,7 +64,7 @@ const ContactForm = () => {
                   <label htmlFor="email" className="text-sm font-bold text-gray-700">Email</label>
                   <input 
                     type="email" id="email" name="email" required 
-                    className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-600 focus:border-transparent transition-all outline-none"
+                    className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-xl focus:ring-2 focus:ring-[#ba283d] focus:border-transparent transition-all outline-none"
                     placeholder="info@example.com"
                   />
                 </div>
@@ -73,12 +73,12 @@ const ContactForm = () => {
                   <label htmlFor="message" className="text-sm font-bold text-gray-700">Μήνυμα</label>
                   <textarea 
                     id="message" name="message" required rows={5}
-                    className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-600 focus:border-transparent transition-all outline-none resize-none"
+                    className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-xl focus:ring-2 focus:ring-[#ba283d] focus:border-transparent transition-all outline-none resize-none"
                     placeholder="Πώς μπορούμε να σας βοηθήσουμε;"
                   ></textarea>
                 </div>
 
-                <button type="submit" className="md:col-span-2 bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 rounded-xl transition-all shadow-lg hover:shadow-blue-200 flex items-center justify-center gap-2">
+                <button type="submit" className="md:col-span-2 bg-[#ba283d] hover:bg-[#8b1f2f] text-white font-bold py-4 rounded-xl transition-all shadow-lg hover:shadow-red-200 flex items-center justify-center gap-2">
                   Αποστολή Μηνύματος
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>
                 </button>

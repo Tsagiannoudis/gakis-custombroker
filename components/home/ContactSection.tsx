@@ -10,7 +10,7 @@ const ContactSection = () => {
   return (
     <section className="relative py-24 bg-gray-50 overflow-hidden">
       {/* Διακοσμητικό φόντο (blur effect) */}
-      <div className="absolute bottom-0 left-0 -translate-x-1/4 translate-y-1/4 w-[600px] h-[600px] bg-blue-100/40 rounded-full blur-3xl -z-10" />
+      <div className="absolute bottom-0 left-0 -translate-x-1/4 translate-y-1/4 w-[600px] h-[600px] bg-red-100/40 rounded-full blur-3xl -z-10" />
 
       <div className="container mx-auto px-6 lg:px-20">
         <div className="text-center mb-16">
@@ -24,7 +24,7 @@ const ContactSection = () => {
         <div className="mt-16 text-center">
           <Link 
             href="/contact" 
-            className="inline-flex items-center text-blue-600 font-bold hover:gap-2 transition-all group"
+            className="inline-flex items-center text-[#ba283d] font-bold hover:gap-2 transition-all group"
           >
             Φόρμα επικοινωνίας
            

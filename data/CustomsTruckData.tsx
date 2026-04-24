@@ -4,7 +4,7 @@ const ServicesData = [
         title: "Αυτοκίνητα",
         images:"/services/car.jpg",
         icon: (<svg
-          className="w-10 h-10 text-blue-600"
+          className="w-10 h-10 text-[#ba283d]"
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"
@@ -32,7 +32,7 @@ const ServicesData = [
         images:"/services/truck.jpg",
         icon: (
           <svg
-            className="w-10 h-10 text-blue-600"
+            className="w-10 h-10 text-[#ba283d]"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -55,7 +55,7 @@ const ServicesData = [
         images:"/services/motorcycle.jpg",
         icon: (
           <svg
-            className="w-10 h-10 text-blue-600"
+            className="w-10 h-10 text-[#ba283d]"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -78,7 +78,7 @@ const ServicesData = [
         images:"/services/classification.jpg",
         icon: (
           <svg
-            className="w-10 h-10 text-blue-600"
+            className="w-10 h-10 text-[#ba283d]"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"

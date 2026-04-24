@@ -32,7 +32,7 @@ const Procedures = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                     {procedures.map((proc, index) => (
                         <div key={index} className="relative p-8 bg-gray-50 rounded-3xl border border-gray-100">
-                            <span className="absolute -top-4 -left-4 w-12 h-12 bg-blue-600 text-white rounded-2xl flex items-center justify-center font-bold text-xl shadow-lg">
+                            <span className="absolute -top-4 -left-4 w-12 h-12 bg-[#ba283d] text-white rounded-2xl flex items-center justify-center font-bold text-xl shadow-lg">
                                 {index + 1}
                             </span>
                             <h3 className="text-xl font-bold text-gray-900 mb-3 mt-2">{proc.title}</h3>

@@ -20,9 +20,9 @@ const ServicesSection = () => {
           {services.map((service) => (
             <div
               key={service.id}
-              className="group p-8 bg-gray-50 rounded-3xl border border-transparent hover:border-blue-100 hover:bg-white hover:shadow-2xl transition-all duration-300"
+              className="group p-8 bg-gray-50 rounded-3xl border border-transparent hover:border-red-100 hover:bg-white hover:shadow-2xl transition-all duration-300"
             >
-              <div className="mb-6 inline-block p-4 bg-blue-50 rounded-2xl group-hover:scale-110 transition-transform duration-300">
+              <div className="mb-6 inline-block p-4 bg-red-50 rounded-2xl group-hover:scale-110 transition-transform duration-300">
                 {service.icon}
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">
