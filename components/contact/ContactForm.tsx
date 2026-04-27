@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const ContactForm = () => {
   return (
     <section className="py-24 bg-white">
@@ -18,7 +20,11 @@ const ContactForm = () => {
                   </div>
                   <div>
                     <p className="font-bold">Διεύθυνση</p>
-                    <p className="text-red-100 text-sm">26ης Οκτωβρίου 28, Θεσσαλονίκη</p>
+                    <p className="text-red-100 text-sm">
+                        <Link href="https://maps.app.goo.gl/8NGRWazU1RcHmSqg8" target="_blank" className="hover:text-white transition-colors">
+                    26ης Οκτωβρίου 28 & Αναγεννήσεως 2, Θεσσαλονίκη, Τ.Κ. 546 27
+                        </Link>
+                    </p>
                   </div>
                 </div>
 
@@ -30,7 +36,12 @@ const ContactForm = () => {
                   </div>
                   <div>
                     <p className="font-bold">Τηλέφωνο</p>
-                    <p className="text-red-100 text-sm">+30 2316 016810</p>
+                    <Link 
+                      href="tel:+302316016810" 
+                      className="text-red-100 text-sm hover:text-white transition-colors"
+                    >
+                      +30 2316 016810
+                    </Link>
                   </div>
                 </div>
 
@@ -42,7 +53,12 @@ const ContactForm = () => {
                   </div>
                   <div>
                     <p className="font-bold">Email</p>
-                    <p className="text-red-100 text-sm">gakisnikos85@gmail.com</p>
+                    <Link 
+                      href="mailto:gakisnikos85@gmail.com" 
+                      className="text-red-100 text-sm hover:text-white transition-colors"
+                    >
+                      gakisnikos85@gmail.com
+                    </Link>
                   </div>
                 </div>
               </div>

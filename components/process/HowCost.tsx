@@ -37,6 +37,9 @@ const HowCost = () => {
             Υπολογισμός Κόστους
           </h2>
         </div>
+        <p className="text-center text-gray-600 max-w-3xl mx-auto mb-16 text-lg leading-relaxed">
+          Προκειμένου να σας παρέχουμε μια ενδεικτική εκτίμηση για το κόστος εκτελωνισμού του οχήματός σας, θα χρειαστούμε τις παρακάτω βασικές πληροφορίες:
+        </p>
         <div className="text-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {whatWeNeed.map((need) => (
             <div
@@ -51,13 +54,12 @@ const HowCost = () => {
           ))}
         </div>
         <div className="text-center mt-16">
-          <p>
-            Συμπλήρωσε την φόρμα επικοινωνίας και σύντομα θα μάθεις περισσότερες
-            πληροφοριές
+          <p className="text-gray-600 mb-6">
+            Συμπληρώστε τη φόρμα επικοινωνίας και σύντομα θα έχετε όλες τις απαραίτητες πληροφορίες.
           </p>
           <Link
             href="/contact"
-            className="inline-flex item-center text-[#ba283d] font-bold hover:gap-2 transition-all group"
+            className="inline-flex items-center text-[#ba283d] font-bold hover:gap-2 transition-all group"
           >
             Φόρμα επικοινωνίας
             <span className="ml-2 group-hover:translate-x-1 transition-transform">
