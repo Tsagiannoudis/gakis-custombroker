@@ -15,7 +15,7 @@ const Navbar = () => {
     <header className="fixed top-4 left-0 right-0 z-50 w-11/12 lg:w-4/5 max-w-7xl mx-auto border border-white/20 bg-white/80 backdrop-blur-md text-black shadow-lg rounded-2xl transition-all duration-300">
       <nav className="container mx-auto flex justify-between items-center px-6 py-3">
         <Link href="/" className="hover:opacity-80 transition-opacity">
-          <Image src="/gakis-front-red.png" alt="logo Gakis ee" width={200} height={60} priority />
+          <Image src="/gakis-front-red2.png" alt="logo Gakis ee" width={200} height={60} priority />
         </Link>
 
         {/* Desktop Menu */}
