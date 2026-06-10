@@ -144,7 +144,7 @@ const Footer = () => {
         <div className="pt-8 border-t border-gray-100 flex flex-col md:flex-row justify-between items-center gap-4 text-center md:text-left">
           <p className="text-gray-400 text-xs">
             © {currentYear} Εκτελωνισμοί Γάκης. Με επιφύλαξη παντός δικαιώματος.
-            || Powered by tSagian Projects
+            || Powered by <Link href="https://tsagiannoudis.gr/" className="hover:text-[#BA283D] transition-colors">tSagian Projects</Link>
           </p>
           <div className="flex gap-6 text-xs text-gray-400">
             <Link
